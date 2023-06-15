@@ -1,0 +1,302 @@
+.color1{
+    background: rgb(74, 174, 157);
+}
+
+.slider{
+    height: 30vh;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+/* CV */
+* { box-sizing: border-box;}
+
+body {
+  background-color: #afafaf;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    
+    padding: 2rem;
+  }
+
+  .logo {
+    width: 200px;
+    animation-name: anim1;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 2s;
+    animation-direction:normal;
+  }
+
+  .logoescrito img {
+    width: 100%;
+    animation-name: anim2;
+    transition: transform 0.5s;
+    height: auto;
+  }
+
+  .logoescrito:hover img {
+    animation: anim2 0.5s forwards; 
+
+  }
+
+  .contenedorinfo {
+    display: flex;
+    padding: 0 35px;
+    flex-direction: column; 
+    background-color: #afafaf;
+  }
+
+  .foto img {
+    width: 90%;
+  }
+
+  #nombre{
+    text-align: center;
+  }
+
+  .foto img:hover{
+    opacity: 0.5;
+  }
+
+.item {
+  color: white;
+}
+ section{
+  margin-top: 2em;
+ }
+
+
+ .contenedorseccion{
+  padding: 0 35px;
+  display : flex;
+  flex-direction : column; 
+  gap: 20px;
+ }
+
+.pastilla{
+  text-align: left;
+  background-color: #cf1c1c;
+  color: #ffffff;
+  padding: 1em;
+  border-radius: 20px; 
+}
+
+.pastilla:hover{
+  background-color: #ffffff;
+  color:#cf1c1c
+}
+
+.pastilla:hover a{
+  color:#cf1c1c;
+}
+
+
+#experiencia{
+  background-color: #cf1c1c;
+  padding: 2em;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 0 35px;
+  margin-bottom: 20px;
+
+}
+#experiencia h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+#experiencia li{
+  margin: 20px 10px;
+}
+
+#formacion{
+  padding: 2em;
+  background-color: #cf1c1c;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 0 35px;
+  margin-bottom: 20px;
+}
+
+#formacion h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+#formacion span{
+  border: 2px solid  #ffffff;
+  font-size: 20px;
+  margin: 1em;
+  padding: 10px;
+}
+#formacion p{
+  margin: 30px;
+}
+
+footer{
+  width:100%;
+  background-color: #ffffff;
+  padding: 2em;
+  
+}
+
+footer div{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+footer div a img{
+  width: 25%;
+  align-items: center;
+  margin: 0 30 px;
+}
+
+.footer {
+  display: flex;
+}
+.instagram  {
+    width: 300%;
+    animation-name: anim2;
+    transition: transform 0.5s;
+    height: auto;
+
+}
+
+.instagram:hover img {
+  animation: anim2 0.5s forwards; 
+
+}
+
+.twitter  {
+  width: 350%;
+  animation-name: anim2;
+  transition: transform 0.5s;
+  height: auto;
+
+}
+
+.twitter:hover img {
+animation: anim2 0.5s forwards; 
+
+}
+
+.facebook  {
+  width: 300%;
+  animation-name: anim2;
+  transition: transform 0.5s;
+  height: auto;
+
+}
+
+.facebook:hover img {
+animation: anim2 0.5s forwards; 
+
+}
+
+.youtube {
+  width: 300%;
+  animation-name: anim2;
+  transition: transform 0.5s;
+  height: auto;
+
+}
+
+.youtube:hover img {
+animation: anim2 0.5s forwards; 
+
+}
+
+.spotify  {
+  width: 300%;
+  animation-name: anim2;
+  transition: transform 0.5s;
+  height: auto;
+
+}
+
+.spotify:hover img {
+animation: anim2 0.5s forwards; 
+
+}
+
+  
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 1rem;
+  }
+  
+  ul li h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  ul li p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+    
+      @media screen and (min-width: 768px) {
+       .contenedorinfo {
+        flex-direction: row;
+       align-items: center;
+      }
+      .contenedorseccion {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+      }
+      .pastilla {
+        flex:1 500px
+        
+      }
+      }
+
+      @keyframes anim1 {
+        0% {
+          transform: translateY(0);
+        }
+      
+        50% {
+          transform: scale(1.3);
+        }
+      
+        100% {
+          transform: translateY(300px);
+        }
+      
+      }
+      
+      @keyframes anim2 {
+        0% { transform: scale(1); } 
+        100% { transform: scale(1.5); } 
+      }
+
+     
