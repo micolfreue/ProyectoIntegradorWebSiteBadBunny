@@ -1,5 +1,5 @@
 .color1{
-    background: rgb(74, 174, 157);
+    background: rgb(181, 217, 227);
 }
 
 .slider{
@@ -10,12 +10,99 @@
     display: flex;
     align-items: center;
 }
+/* home */
+.contenedorhome img{ 
+filter: grayscale(0%);
+transition: 0.5s;
+}
+.contenedorhome img:hover{ 
+  filter: grayscale(100%); 
+}
+
+.contenedordiscos img{
+  transform:scale(1);
+  transition: 0.7s;
+}
+.contenedordiscos img:hover{
+  transform:scale(1.2)
+}
+
+.navbar-brand img{
+  animation:logoanimado 6s infinite
+}
+
+@keyframes logoanimado { 
+  0% {transform:scale(1);}
+  25%{transform:scale(1.2);}
+  50%{transform:scale(1);}
+  75%{transform:scale(1.2);}
+  100%{transform:scale(1);}
+}
+
+.subtitlee {
+  font-family: 'Slabo 13px', serif;
+}
+
+.card-titlediscografia {
+  font-family: 'Spicy Rice', cursive;
+}
+.card-textdiscografia { 
+font-family: 'Noto Sans', sans-serif;
+} 
+
+/* Capsula */
+.formulario {
+  background-image:url(../img/badformulario.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.card-bodyzapa {
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+@media screen and (min-width:480px) { 
+.contenedorform { 
+  width:30%
+}
+} 
+
+.tituloscapsula {
+font-family: 'Spicy Rice', cursive;
+
+}
+
+/* Videos */
+.contenedorvideos { 
+  padding:0 25% ;
+}
+
+.card-titleescucha { 
+  font-family: 'Slabo 13px', serif;
+  text-align: center;
+}
+
+.card-textbad {
+  font-family: 'Spicy Rice', cursive;
+  text-align: center;
+}
+
+
+.contenedorvideos2 {
+  transform:scale(1);
+  transition: 0.7s;
+}
+.contenedorvideos2:hover{
+  transform:scale(1.3)
+} 
 
 /* CV */
 * { box-sizing: border-box;}
 
 body {
-  background-color: #afafaf;
+  background-color:  rgb(181, 217, 227);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -50,7 +137,7 @@ header {
     display: flex;
     padding: 0 35px;
     flex-direction: column; 
-    background-color: #afafaf;
+    background-color: rgb(181, 217, 227);
   }
 
   .foto img {
