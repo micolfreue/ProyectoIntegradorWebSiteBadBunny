@@ -1,7 +1,5 @@
 # Proyecto Momento 3 Bad Bunny - Micol Freue
 
-<img src="badbunny.jpeg" alt="Foto">
-
 ## Proyecto:
 -  Momento 3 - Bootstrap - Responsive
 
